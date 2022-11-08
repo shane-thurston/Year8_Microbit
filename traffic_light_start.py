@@ -1,5 +1,5 @@
 from microbit import *
-for count in range(10):
+for count in range(5):
     pin0.write_digital(1)
     sleep(500)
     pin0.write_digital(0)
