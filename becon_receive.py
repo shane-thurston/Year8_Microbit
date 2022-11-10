@@ -2,10 +2,10 @@
 from microbit import *
 import radio
 
-# Code in a 'while True:' loop repeats forever
 radio.on()
 radio.config(group=1,power=0)
 
+# Code in a 'while True:' loop repeats forever
 while True:
     msg = radio.receive()
     if msg == "becon":
