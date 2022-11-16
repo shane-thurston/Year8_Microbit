@@ -15,5 +15,6 @@ while True:
     # Red light on
     # sleep
     # Red light off
+    # sleep
   else:
     # Green light on
